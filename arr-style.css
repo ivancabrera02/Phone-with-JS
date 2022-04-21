@@ -1,0 +1,146 @@
+.div-flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 120px 40px 40px 40px 40px 40px;
+    gap: 5px;
+    justify-content: center;
+}
+#reloj{
+    grid-column: 1 / 4;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+#zero{
+    grid-column: 2;
+}
+#input1{
+    grid-column: 1 / 4;
+}
+#show{
+    margin-top: 5px;
+}
+.boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+.boton:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.input-phone{
+    border: none;
+    border-bottom: 2px solid #0016b0;
+    outline: none;
+    background-color: transparent;
+    font-size: 14px;
+    text-align: center;
+}
+.item1{
+     color: #1883ba;
+     font-size: 50px;
+     
+}
+.phone-border{
+    background-image: url(https://storage.googleapis.com/www-paredro-com/uploads/2017/08/gifs-pop-01.gif);
+    background-position: center;
+}
+#phone-border{
+    border: 10px solid rgb(46, 46, 46);
+    height: 500px;
+    width: 250px;
+    border-radius: 15px;
+    margin: 0 auto;
+    
+}
+#power{
+    float: right;
+    background-color: transparent;
+    margin-right: 435px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-image: url("imagenes/poweroff.png");
+    background-size: 60px;
+    background-position: center;
+}
+#power:hover{
+    cursor: pointer;
+}
+.passwords{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto 80px auto;
+    border: 10px solid black;
+    height: 220px;
+    width: 600px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(253,224,0);
+}
+#label-text{
+    grid-column: 1;
+    grid-row: 2;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#input-password{
+    grid-column: 1;
+    grid-row: 2;
+    height: 15px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+#input-button{
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 40px;
+    margin-left: 125px;
+    width: 80px;
+    height: 21px;
+}
+#random-label{
+    grid-column: 2;
+    grid-row: 2;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#input-generate{
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 10px;
+    margin-top: 40px;
+    width: 80px;
+    height: 21px;
+}
+#parrafo{
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.ajax-peticions{
+    border: 10px solid black;
+    border-radius: 15px;
+    background-color: rgb(253,224,0);
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin: 30px;
+    margin-top: 70px;
+}
