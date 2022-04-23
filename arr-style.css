@@ -134,13 +134,3 @@
     margin-left: 100px;
     margin-top: 40px;
 }
-.ajax-peticions{
-    border: 10px solid black;
-    border-radius: 15px;
-    background-color: rgb(253,224,0);
-    width: 400px;
-    height: 400px;
-    float: left;
-    margin: 30px;
-    margin-top: 70px;
-}
